@@ -24,7 +24,7 @@ class AuditEntry extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'tbl_audit_entry';
+        return '{{%tbl_audit_entry}}';
     }
 
     /**
